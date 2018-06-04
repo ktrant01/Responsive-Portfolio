@@ -239,20 +239,29 @@ label {
         /* position: relative; */
     }
 
+    .headerContent {
+        width: 620px;
+        background-color: white;
+    }
     
     
     }
     
     @media (min-width: 768px) { 
     
-        .content {
-            border: solid #dddddd;
-            border-width: 1px; 
-            width: 600px;
-            background-color: white;
-            padding:25px;
-            /* position: relative; */
-        }
+    .content {
+        border: solid #dddddd;
+        border-width: 1px; 
+        width: 700px;
+        background-color: white;
+        padding:25px;
+        /* position: relative; */
+    }
+
+    .headerContent {
+        width: 700px;
+        background-color: white;
+    }
     
     }
     
@@ -261,11 +270,19 @@ label {
         .content {
             border: solid #dddddd;
             border-width: 1px; 
-            width: 800px;
+            width: 700px;
             background-color: white;
             padding:25px;
             /* position: relative; */
         }
     
+        .headerContent {
+            width: 700px;
+            background-color: white;
+        }
+    
     
     }
+
+/* TO DO:  Need to make updates to the header */
+           /* Need to implement static header */
